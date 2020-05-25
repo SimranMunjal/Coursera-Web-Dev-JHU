@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment Solution for Module 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+		body{
+			background-color: #ffcc66;
+			font-family: Hammersmith One, sans-serif;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			text-align: center;
+			margin-top: 20px;
+			font-size: 40px;
+			margin-bottom: 5%;
+		}
+
+		span{
+			float: right;
+			border-right-width: 1px;
+			border-top-width: 1px;
+			border-left-width: 2px;
+			border-bottom-width: 2px; 
+			border-style: solid;
+			border-color: black;
+			padding: 5px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.s1{
+			background-color: pink;
+		}
+		.s2{
+			background-color: orange;
+		}
+		.s3{
+			background-color: yellow;
+		}
+
+		p{
+			width: 100%;
+			font-size: 19px;
+			margin-right: auto;
+			margin-left: auto;
+			padding: 10px;
+			padding-top: 0px;
+			padding-right: 0px;
+			border: 2px solid black;
+		}
+
+
+		@media screen and (min-width: 992px) {
+			.p1, .p2, .p3{
+				width: 33.33%;
+				float: left;
+				border: 10px solid #ffcc66;
+			}
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 991px) {
+			.p1, .p2{
+				width: 50%;
+				float: left;
+				border:10px solid #ffcc66;;
+				border-bottom-width: 1px;
+			}
+			.p3{
+				width: 100%;
+				float: left;
+				border: 10px solid #ffcc66;;
+				border-top-width: 0px;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+
+	<div class="p1">
+		<p style="background-color: blue"><span class="s1">Chicken</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<div class="p2">
+		<p style="background-color: brown"><span class="s2">Beef</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<div class="p3">
+		<p style="background-color: green"><span class="s3">Sushi</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+</body>
+</html>
